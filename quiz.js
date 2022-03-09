@@ -15,7 +15,7 @@
 
      for (let value of formResults.values()) {
          //console.log(value);
-    
+     
          if (value === correctAnswers[index]) {
              score += 1;
              index += 1;
