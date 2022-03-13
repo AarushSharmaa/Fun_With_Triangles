@@ -1,0 +1,64 @@
+/* index.html page */
+
+body {
+    background-color: aliceblue;
+}
+
+.intro {
+    color: #7c3aed;
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navigation-bar {
+    text-align: center;
+    color: #7c3aed;
+    
+}
+
+
+.links {
+    color: #7c3aed;
+    text-decoration: none;
+}
+
+.about-me {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #7c3aed; 
+}
+
+
+/* isTriangle.html page */
+
+.angle-input{
+    display: block;
+    margin: 4rem auto;
+    padding: 0.5rem;
+    border-radius: 2.5rem;
+}
+
+#is-triangle-btn{
+    border: none;
+    margin: 1rem auto;
+    background-color: #7c3aed;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    display: block;
+}
+
+#output {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+

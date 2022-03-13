@@ -6,31 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is Triangle?</title>
+    <link rel="stylesheet" href="intro.css">
 </head>
 
 <body>
 
 
-    <nav>
-        <a href = "isTriangle.html">Is Triangle?</a>
-        <a href = "quiz.html">Triangle Quiz</a>
-        <a href = "hypotenuse.html">Calculate Hypotenuse</a>
-        <a href = "area.html">Calculate Area</a>
-    </nav>  
-    <h1>Is Triangle?</h1>
-    <label for="angle1">Angle 1</label>
-    <input type="number" class="angle-input">
+  
+    <h1 style="color: #7c3aed; text-align: center;">Is Triangle?</h1>
+    <p style="text-align: center;font-weight: bold;font-style: italic;">Give angles in degrees and find out if they form a triangle or not.</p>
+    <label for="angle1"></label>
 
-    <label for="angle2">Angle 2</label>
-    <input type="number" class="angle-input">
+    <input type="number" class="angle-input" placeholder="Angle 1">
 
-    <label for="angle3">Angle 3</label>
-    <input type="number" class="angle-input">
+    <label for="angle2" ></label>
+    <input type="number" class="angle-input" placeholder="Angle 2">
+
+    <label for="angle3" ></label>
+    <input type="number" class="angle-input" placeholder="Angle 3">
 
     <button id="is-triangle-btn">Is Triangle?</button>
+    <br>
 
     <div id="output"> </div>
 
+    <br>
+    <br>
+    <br>
+    <p style="text-align: center;font-weight: bold;"> Navigate to other games from below.</p>
+    <br>
+    
+
+    <nav class = "navigation-bar">
+        <ul>
+            <li>
+            <a href = "isTriangle.html" class = "links">Is Triangle?</a>
+            </li>
+            <br>
+            <li>
+            <a href = "quiz.html" class = "links">Triangle Quiz</a>
+            </li>
+            <br>
+            <li>
+            <a href = "hypotenuse.html" class = "links">Calculate Hypotenuse of a Triangle</a>
+            </li> 
+            <br>
+            <li>
+            <a href = "area.html" class = "links">Calculate Area of a Triangle</a>
+            </li>
+            
+        </ul>
+        </nav>  
+        <br>
 </body>
 <script src="isTriangle.js"></script>
 
