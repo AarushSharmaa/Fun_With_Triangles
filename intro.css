@@ -4,6 +4,9 @@ body {
     background-color: aliceblue;
 }
 
+img {
+    margin: 2rem auto;
+}
 .intro {
     color: #7c3aed;
     text-align: center;
@@ -61,4 +64,46 @@ body {
     font-weight: bold;
     font-size: xx-large;
 }
+
+/* Triangle Quiz */
+
+.quiz-form {
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.options {
+    font-weight: bold;
+    font-size: large;
+    color: green
+}
+
+.ques {
+    color: #7c3aed;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#submit-answer-btn
+{
+    border: none;
+    margin: 1rem auto;
+    background-color: #7c3aed;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    display: block;
+
+}
+
+.output {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+
+
 
