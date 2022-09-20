@@ -1,6 +1,6 @@
-const sideInputs = document.querySelectorAll(".side-input");
+const sideInputs = document.querySelectorAll(".angle-input");
 
-var calculateButton = document.querySelector("#calculate-btn");
+var calculateButton = document.querySelector("#is-triangle-btn");
 
 const outputHypotenuse = document.querySelector("#output");
 
@@ -14,8 +14,7 @@ function calcuateSumOfSquares(x, y) {
 
 function calculateHypotenuse() {
 
-    const sumOfSquares = calcuateSumOfSquares
-    (
+    const sumOfSquares = calcuateSumOfSquares(
         Number(sideInputs[0].value),
         Number(sideInputs[1].value)
     );

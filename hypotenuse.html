@@ -7,40 +7,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculate Hypotenuse</title>
+    <link rel="stylesheet" href="intro.css">
 
 </head>
 
 <body>
-    <nav>
-        <a href = "isTriangle.html">Is Triangle?</a>
-        <a href = "quiz.html">Triangle Quiz</a>
-        <a href = "hypotenuse.html">Calculate Hypotenuse</a>
-        <a href = "area.html">Calculate Area</a>
-    </nav>   
 
-    <h1>Calculate Hypotenuse</h1> 
+
+    <h1 class="intro">Calculate Hypotenuse</h1>
+    <br>
+    <p class="about">Enter two sides of a Triangle and find out the hypotenuse. It is calculated using our very own and famous Pythagoras Theorem.</p>
 
 
     <!--We need two sides, a button and an output block-->
 
     <!-- Side 1 -->
-    <label>Side 1 :
-        <input type="number" class="side-input">
+    <label for="angle-input">
+        <input type="number" class="angle-input " placeholder="Side 1 of Triangle (Base)">
     </label>
 
     <!-- Side 2 -->
-    <label>Side 2 :
-        <input type="number" class="side-input">
+    <label for="angle-input">
+        <input type="number" class="angle-input " placeholder="Side 2 of Triangle (Height)">
     </label>
 
     <!-- Button -->
-    <button id="calculate-btn">Calculate Hypotenuse</button>
+    <button id="is-triangle-btn">Calculate Hypotenuse</button>
 
     <!-- Output -->
     <div id="output"></div>
 
+    <p class="about">Hypotenuse Formula : √(base² + height²)</p>
+
+
+    <footer>
+        <p>Navigate to other games from below ⬇</p>
+        <ul class="navigation-bar ">
+
+            <li>
+                <a class="links " href="index.html " class="links ">Home</a>
+            </li>
+            <li>
+                <a class="links " href="isTriangle.html " class="links ">Is Triangle?</a>
+            </li>
+
+            <li>
+                <a class="links " href="quiz.html " class="links ">Triangle Quiz</a>
+            </li>
+
+            <li>
+                <a class="links " href="hypotenuse.html " class="links ">Calculate Hypotenuse of a Triangle</a>
+            </li>
+
+            <li>
+                <a class="links " href="area.html " class="links ">Calculate Area of a Triangle</a>
+            </li>
+
+        </ul>
+    </footer>
+
 
 </body>
-<script src="hypotenuse.js"></script>
+<script src="hypotenuse.js "></script>
 
 </html>

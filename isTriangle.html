@@ -12,18 +12,17 @@
 <body>
 
 
-  
-    <h1 style="color: #7c3aed; text-align: center;">Is Triangle?</h1>
-    <p style="text-align: center;font-weight: bold;font-style: italic;">Give angles in degrees and find out if they form a triangle or not.</p>
+    <h1 style="color: green; text-align: center;">Is Triangle?</h1>
+    <p style="text-align: center;font-weight:500;font-style: normal;">Give angles of a Triangle and find out if they form a triangle or not.</p>
+
     <label for="angle1"></label>
+    <input type="number" class="angle-input" placeholder="Angle 1 (in degrees)">
 
-    <input type="number" class="angle-input" placeholder="Angle 1">
+    <label for="angle2"></label>
+    <input type="number" class="angle-input" placeholder="Angle 2 (in degrees)">
 
-    <label for="angle2" ></label>
-    <input type="number" class="angle-input" placeholder="Angle 2">
-
-    <label for="angle3" ></label>
-    <input type="number" class="angle-input" placeholder="Angle 3">
+    <label for="angle3"></label>
+    <input type="number" class="angle-input" placeholder="Angle 3 (in degrees)">
 
     <button id="is-triangle-btn">Is Triangle?</button>
     <br>
@@ -33,32 +32,35 @@
     <br>
     <br>
     <br>
-    <p style="text-align: center;font-weight: bold;font-size: large;"> Navigate to other games from below.</p>
-    <br>
-    
 
-    <nav class = "navigation-bar">
-        <ul>
+
+    <footer>
+        <p>Navigate to other games from below ⬇</p>
+        <ul class="navigation-bar">
+
             <li>
-            <a href = "isTriangle.html" class = "links">Is Triangle?</a>
+                <a class="links" href="index.html" class="links">Home</a>
             </li>
-            <br>
             <li>
-            <a href = "quiz.html" class = "links">Triangle Quiz</a>
+                <a class="links" href="isTriangle.html" class="links">Is Triangle?</a>
             </li>
-            <br>
+
             <li>
-            <a href = "hypotenuse.html" class = "links">Calculate Hypotenuse of a Triangle</a>
-            </li> 
-            <br>
-            <li>
-            <a href = "area.html" class = "links">Calculate Area of a Triangle</a>
+                <a class="links" href="quiz.html " class="links ">Triangle Quiz</a>
             </li>
-            
+
+            <li>
+                <a class="links" href="hypotenuse.html " class="links ">Calculate Hypotenuse of a Triangle</a>
+            </li>
+
+            <li>
+                <a class="links" href="area.html " class="links ">Calculate Area of a Triangle</a>
+            </li>
+
         </ul>
-        </nav>  
-        <br>
+    </footer>
+
 </body>
-<script src="isTriangle.js"></script>
+<script src="isTriangle.js "></script>
 
 </html>

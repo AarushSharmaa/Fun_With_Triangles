@@ -1,7 +1,7 @@
 const triBase = document.querySelector("#base");
 const triHt = document.querySelector("#height");
 
-const button = document.querySelector("#calc-btn");
+const button = document.querySelector("#is-triangle-btn");
 
 const area = document.querySelector("#output");
 
