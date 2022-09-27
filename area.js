@@ -7,13 +7,18 @@ const area = document.querySelector("#output");
 
 function calculateArea() {
 
+    if (triBase.value.length === 0 || triHt.value.length === 0) {
+        alert("Do not leave any field empty");
+        return;
+    }
+
     if ((Number(triBase.value)) < 0) {
-        alert("You are dumb cause base negative kaise?");
+        alert("Base negative kaise? Positive value daale");
         return;
     }
 
     if ((Number(triHt.value)) < 0) {
-        alert("You are dumb cause height negative kaise?");
+        alert("Enter valid input cause height negative kaise?");
         return;
     }
 

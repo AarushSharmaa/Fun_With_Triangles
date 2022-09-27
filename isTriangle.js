@@ -14,13 +14,24 @@ function findSumOfAngles(angle1, angle2, angle3) {
 //function to check -- logic
 
 function isTriangle() {
-    const sumOfAngles = findSumOfAngles(Number(inputs[0].value), Number(inputs[1].value), Number(inputs[2].value));
-    if (sumOfAngles === 180) {
-        //console.log("It is a triangle 💖");
-        outputIsTriangle.innerText = "It is a triangle 💖";
+
+    if (Number(inputs[0].value) < 0 || Number(inputs[1].value < 0) || Number(inputs[2].value < 0)) {
+        outputIsTriangle.innerText = "All three angles must be positive. Please enter valid inputs and retry."
+        return;
+    }
+    if (inputs[0].value.length === 0 || inputs[1].value.length === 0 || inputs[2].value.length === 0) {
+        outputIsTriangle.innerText = "One or more angles are empty. Please enter positive values for angles.";
+        return;
+
     } else {
-        //console.log("It is not a triangle. 🤷‍♂️");
-        outputIsTriangle.innerText = "It is not a triangle 🤦‍♂️";
+        const sumOfAngles = findSumOfAngles(Number(inputs[0].value), Number(inputs[1].value), Number(inputs[2].value));
+        if (sumOfAngles === 180) {
+            //console.log("It is a triangle 💖");
+            outputIsTriangle.innerText = "It is a triangle 💖";
+        } else {
+            //console.log("It is not a triangle. 🤷‍♂️");
+            outputIsTriangle.innerText = "It is not a triangle 🤦‍♂️";
+        }
     }
 
 }
