@@ -14,13 +14,14 @@ function calcuateSumOfSquares(x, y) {
 
 function calculateHypotenuse() {
 
+
     if (sideInputs[0].value.length === 0 || sideInputs[1].value.length === 0) {
         outputHypotenuse.innerText = "Please do not leave any field empty";
         return;
     }
 
-    if (Number(sideInputs[0].value) < 0 || Number(sideInputs[1].value) < 0) {
-        outputHypotenuse.innerText = "Base and Height must be positive. Please retry with valid inputs";
+    if (Number(sideInputs[0].value) <= 0 || Number(sideInputs[1].value) <= 0) {
+        outputHypotenuse.innerText = "Base and Height must be >= 1 ";
         return;
     }
 

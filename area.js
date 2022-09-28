@@ -12,13 +12,13 @@ function calculateArea() {
         return;
     }
 
-    if ((Number(triBase.value)) < 0) {
-        area.innerText = "Base negative kaise? Positive value daale";
+    if ((Number(triBase.value)) <= 0) {
+        area.innerText = "Invalid input. Base must be >= 1";
         return;
     }
 
-    if ((Number(triHt.value)) < 0) {
-        area.innerText = "Enter valid input cause height negative kaise?";
+    if ((Number(triHt.value)) <= 0) {
+        area.innerText = "Invalid input. Height must be >= 1";
         return;
     }
 
