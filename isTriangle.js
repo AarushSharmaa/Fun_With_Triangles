@@ -14,6 +14,11 @@ function findSumOfAngles(angle1, angle2, angle3) {
 //function to check -- logic
 
 function isTriangle() {
+    if (Number(inputs[0].value) === 0 || Number(inputs[1].value === 0) || Number(inputs[2].value === 0)) {
+        outputIsTriangle.innerText = "All three angles must be non-zero and positive."
+        return;
+    }
+
 
     if (Number(inputs[0].value) < 0 || Number(inputs[1].value < 0) || Number(inputs[2].value < 0)) {
         outputIsTriangle.innerText = "All three angles must be positive. Please enter valid inputs and retry."
